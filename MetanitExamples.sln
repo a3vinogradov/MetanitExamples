@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch16-3_2-OrderBy_Object", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch16-3_3-OrderBy_MultiSort", "Ch16-3_3-OrderBy_MultiSort\Ch16-3_3-OrderBy_MultiSort.csproj", "{DA858F4A-9884-4005-8607-21A6A820821A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch16-4", "Ch16-4_1-Except\Ch16-4.csproj", "{3DA87695-AF96-4113-8DFC-6494A294AD98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DA858F4A-9884-4005-8607-21A6A820821A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA858F4A-9884-4005-8607-21A6A820821A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA858F4A-9884-4005-8607-21A6A820821A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA87695-AF96-4113-8DFC-6494A294AD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA87695-AF96-4113-8DFC-6494A294AD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA87695-AF96-4113-8DFC-6494A294AD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA87695-AF96-4113-8DFC-6494A294AD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
