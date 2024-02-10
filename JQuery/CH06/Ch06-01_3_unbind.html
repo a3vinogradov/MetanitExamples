@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Мир jQuery</title>
+<script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<h2>Добро пожаловать в мир jQuery</h2>
+<button class="langs">Языки программирования</button>
+<script type="text/javascript">
+$(function(){
+	$('button').bind('click', function(e){
+		alert('Привет мир!');
+	});
+	//$('button').unbind();	
+});
+</script>
+</body>
+</html>
