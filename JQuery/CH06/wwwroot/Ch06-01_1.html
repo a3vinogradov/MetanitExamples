@@ -8,7 +8,6 @@
         <div id="news"><h3>Нет новостей</h3></div>
         <script type="text/javascript">
         function ajaxload(){
-			alert('Привет мир!');
             var xhr=new XMLHttpRequest();
             xhr.onreadystatechange=function(){
                 if(this.readyState==4){
@@ -17,7 +16,7 @@
                     }
                 }
             }
-            xhr.open('GET', 'https://localhost:44360/');
+            xhr.open('GET', '/time');
             xhr.send();
         }
         </script>
