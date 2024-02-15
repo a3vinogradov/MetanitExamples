@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+        <script src="external/jquery/jquery.js"></script>
+        <script src="jquery-ui.min.js"></script>	
+		<style>
+			.ui-button {font-size: 13px;}
+		</style>		
+    </head>
+    <body>
+		<div id="langs">
+			<input type="radio" id="java" name="lang" checked><label for="java">Java</label>
+			<input type="radio" id="csharp" name="lang"><label for="csharp">C#</label>
+			<input type="radio" id="php" name="lang"><label for="php">PHP</label></p>
+		</div>
+		<script type="text/javascript">
+		$(function(){
+				 
+			$('#langs').buttonset();
+		});
+		</script>
+    </body>
+</html>

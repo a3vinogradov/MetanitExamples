@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
+        <script src="external/jquery/jquery.js"></script>
+        <script src="jquery-ui.min.js"></script>	
+		<style>
+			.ui-button {font-size: 13px;}
+		</style>		
+    </head>
+    <body>
+		<button class="help">Помощь</button>
+		<script type="text/javascript">
+		$(function(){
+			$('button.help').button({icons: { secondary: "ui-icon-help" }});
+		});
+		</script>
+    </body>
+</html>
