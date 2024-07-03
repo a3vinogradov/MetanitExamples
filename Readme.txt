@@ -10,3 +10,7 @@ https://metanit.com/sharp/efcore/
 JQuery
 Онлайн-книга "Изучаем jQuery"
 https://metanit.com/web/jquery/
+
+MAUI
+Руководство по программированию на .NET MAUI и C#
+https://metanit.com/sharp/maui/
