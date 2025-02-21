@@ -14,3 +14,7 @@ https://metanit.com/web/jquery/
 MAUI
 Руководство по программированию на .NET MAUI и C#
 https://metanit.com/sharp/maui/
+
+Python 
+Руководство по языку программирования Python
+https://metanit.com/python/tutorial/
